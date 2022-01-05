@@ -67,7 +67,6 @@ function addItemToCart (title, price, imgSrc) {
     let cartRowContents = `<div class="cartItem">
                         <img src="${imgSrc}">
                         <div class= "cartCard">
-                            <label class="cartProdLabel">Camisetas</label>
                             <p class="cartItemTitle">${title}</p>
                         </div>
                         <span class="cartPriceTag">${price}</span>
